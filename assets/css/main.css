@@ -3911,3 +3911,18 @@ input, select, textarea {
 		html {
 			scroll-behavior: smooth;
 		  }
+		  #carouselExampleControls{
+			background-color: #0b0b14;
+			word-wrap: break-word;
+
+		  }
+		  .carousel{
+			margin-top: 50px;
+		  }
+		  .carousel-inner{
+			height: 400px;
+		  }
+		  .carousel-caption{
+			color: rgba(255, 255, 255, 0.55);
+			top: 50%;
+		  }
