@@ -3920,8 +3920,12 @@ input, select, textarea {
 			margin-top: 50px;
 		  }
 		  .carousel-inner{
+			overflow-y: scroll;
 			height: 400px;
 		  }
+		  .carousel-inner::-webkit-scrollbar {
+			display: none;
+  		  }
 		  .carousel-caption{
 			color: rgba(255, 255, 255, 0.55);
 			top: 50%;
